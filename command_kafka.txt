@@ -33,14 +33,14 @@ Create the topic:
 -----------------------------
 Duplicate the session & enter in a new console --
 cd kafka_2.12-3.3.1
-bin/kafka-topics.sh --create --topic demosy --bootstrap-server 3.143.207.111:9092 --replication-factor 1 --partitions 1
+bin/kafka-topics.sh --create --topic demosy2 --bootstrap-server 3.134.243.31:9092 --replication-factor 1 --partitions 1
 
 Start Producer:
 --------------------------
-bin/kafka-console-producer.sh --topic demosy --bootstrap-server 3.143.207.111:9092 
+bin/kafka-console-producer.sh --topic demosy2 --bootstrap-server 3.134.243.31:9092 
 
 Start Consumer:
 -------------------------
 Duplicate the session & enter in a new console --
 cd kafka_2.12-3.3.1
-bin/kafka-console-consumer.sh --topic demosy --bootstrap-server 3.143.207.111:9092
+bin/kafka-console-consumer.sh --topic demosy2 --bootstrap-server 3.134.243.31:9092
